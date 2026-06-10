@@ -1,0 +1,16 @@
+2026-06-10 15:08:02 | INFO     | order_manager | MT5 connected | Account: 179297 | Balance: 251.41 ZAR | Leverage: 1:500
+2026-06-10 15:08:02 | INFO     | ewmac_strategy | MultiSpeedEWMAC (AGGRESSIVE) initialized | timeframe=M15 | ATR daily multiplier=9.80x (√96) | Stop multiplier=2.0x | ATR period=10
+2026-06-10 15:08:02 | INFO     | ewmac_strategy | MultiSpeedEWMAC (AGGRESSIVE) initialized | timeframe=M15 | ATR daily multiplier=9.80x (√96) | Stop multiplier=2.0x | ATR period=10
+2026-06-10 15:08:02 | INFO     | ewmac_strategy | MultiSpeedEWMAC (AGGRESSIVE) initialized | timeframe=M15 | ATR daily multiplier=9.80x (√96) | Stop multiplier=2.0x | ATR period=10
+2026-06-10 15:08:02 | INFO     | volatility_position_sizer | VolatilityPositionSizer (AGGRESSIVE) | N=3 | IDM=2.00
+2026-06-10 15:08:02 | INFO     | bot | IDM set to 2.00 based on 3 active instruments
+2026-06-10 15:08:02 | INFO     | bot | Expected positions (N) set to 3
+2026-06-10 15:08:02 | INFO     | bot | AGGRESSIVE MODE ACTIVE | R250 Configuration
+2026-06-10 15:08:02 | INFO     | bot | Exit Logic: Trailing Stop Loss + Stop and Reverse (NO take profit)
+2026-06-10 15:08:02 | INFO     | bot | Smart Re-entry: ENABLED
+2026-06-10 15:08:02 | INFO     | bot | Re-entry cooldown: 30 minutes
+2026-06-10 15:08:02 | INFO     | bot | Max consecutive stops: 3
+2026-06-10 15:08:02 | INFO     | bot | TradingBot ready | active symbols: ['BTCUSD', 'ETHUSD', 'SOLUSD']
+2026-06-10 15:08:02 | INFO     | bot | Main loop started (AGGRESSIVE MODE - Trailing Stop only)
+2026-06-10 15:08:02 | INFO     | order_manager | Sync: adopted BTCUSD | ticket=169086029 | SL=62305.07 | estimated_atr=451.51568353858886
+2026-06-10 15:08:02 | INFO     | order_manager | Sync: adopted SOLUSD | ticket=169086034 | SL=65.27 | estimated_atr=0.6679421764118972
