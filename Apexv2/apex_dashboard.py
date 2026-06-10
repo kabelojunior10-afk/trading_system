@@ -34,7 +34,7 @@ class ApexDashboard:
         self.clear_screen()
 
         print(f"{Fore.RED}{'═' * 100}")
-        print(f"{Fore.YELLOW} APEX VOLATILITY BASED SYSTEMATIC TREND FOLLOWING TRADING SYSTEM {Style.RESET_ALL}")
+        print(f"{Fore.YELLOW} AMARE CAPITAL MANAGEMENT {Style.RESET_ALL}")
         print(f"{Fore.CYAN}{'═' * 100}{Style.RESET_ALL}")
 
         
