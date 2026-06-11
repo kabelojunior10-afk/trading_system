@@ -1,0 +1,18 @@
+2026-06-11 09:40:59 | INFO     | apex_order_manager | APEX MT5 | Account: 179322 | Balance: 95857.65 ZAR | Leverage: 1:500
+2026-06-11 09:40:59 | INFO     | apex_ewmac_strategy | APEX EWMAC (ULTRA) | tf=M1 | daily_mult=37.95x | stop_mult=4.0x | ATR=8
+2026-06-11 09:40:59 | INFO     | apex_ewmac_strategy | APEX EWMAC (ULTRA) | tf=M1 | daily_mult=37.95x | stop_mult=4.0x | ATR=8
+2026-06-11 09:40:59 | INFO     | apex_volatility_sizer | APEX SIZER (ULTRA) | N=2 | IDM=3.50
+2026-06-11 09:40:59 | INFO     | apex_bot | APEX SYSTEM ACTIVE | IDM=3.50 | N=2
+2026-06-11 09:40:59 | INFO     | apex_bot | Trading: BTCUSD, ETHUSD only
+2026-06-11 09:40:59 | INFO     | apex_bot | Timeframe: M1 (1 minute) ultra aggressive
+2026-06-11 09:40:59 | INFO     | apex_bot | Exit: Trailing stop (4.0× ATR) + Stop and Reverse
+2026-06-11 09:40:59 | INFO     | apex_bot | Smart re-entry: ENABLED (15 min cooldown)
+2026-06-11 09:40:59 | INFO     | apex_bot |  APEX main loop started (ULTRA AGGRESSIVE MODE - M1)
+2026-06-11 09:40:59 | INFO     | apex_volatility_sizer | APEX SIZER BTCUSD: Bal=95858 | Fcst=-35.6 | Vol=80% | Risk=85% | Lots=0.0700
+2026-06-11 09:40:59 | INFO     | apex_bot | BTCUSD: APEX ENTRY | lots=0.0700 | candle ATR=32.20 | stop_mult=4.0x | price=62541.20
+2026-06-11 09:40:59 | INFO     | apex_order_manager |  APEX OPEN | BTCUSD 0.0700 @ 62533.61 | ticket=169145597
+2026-06-11 09:40:59 | INFO     | apex_bot | BTCUSD: APEX OPENED SELL | lots=0.0700 | ticket=169145597 | NO TP
+2026-06-11 09:40:59 | INFO     | apex_volatility_sizer | APEX SIZER ETHUSD: Bal=95858 | Fcst=-38.7 | Vol=80% | Risk=85% | Lots=2.9000
+2026-06-11 09:40:59 | INFO     | apex_bot | ETHUSD: APEX ENTRY | lots=2.9000 | candle ATR=0.96 | stop_mult=4.0x | price=1650.25
+2026-06-11 09:41:00 | INFO     | apex_order_manager |  APEX OPEN | ETHUSD 2.9000 @ 1649.52 | ticket=169145598
+2026-06-11 09:41:00 | INFO     | apex_bot | ETHUSD: APEX OPENED SELL | lots=2.9000 | ticket=169145598 | NO TP
