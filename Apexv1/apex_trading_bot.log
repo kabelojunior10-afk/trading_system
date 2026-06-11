@@ -1,0 +1,155 @@
+2026-06-10 22:02:00 | INFO     | apex_order_manager | APEX MT5 | Account: 179322 | Balance: 95327.47 ZAR | Leverage: 1:500
+2026-06-10 22:02:00 | INFO     | apex_ewmac_strategy | APEX EWMAC (ULTRA) | tf=M5 | daily_mult=16.97x | stop_mult=1.2x | ATR=8
+2026-06-10 22:02:00 | INFO     | apex_ewmac_strategy | APEX EWMAC (ULTRA) | tf=M5 | daily_mult=16.97x | stop_mult=1.2x | ATR=8
+2026-06-10 22:02:00 | INFO     | apex_volatility_sizer | APEX SIZER (ULTRA) | N=2 | IDM=3.50
+2026-06-10 22:02:00 | INFO     | apex_bot | APEX SYSTEM ACTIVE | IDM=3.50 | N=2
+2026-06-10 22:02:00 | INFO     | apex_bot | Trading: BTCUSD, ETHUSD only
+2026-06-10 22:02:00 | INFO     | apex_bot | Timeframe: M5 (5 minute) ultra aggressive
+2026-06-10 22:02:00 | INFO     | apex_bot | Exit: Trailing stop (1.5× ATR) + Stop and Reverse
+2026-06-10 22:02:00 | INFO     | apex_bot | Smart re-entry: ENABLED (15 min cooldown)
+2026-06-10 22:02:00 | INFO     | apex_bot |  APEX main loop started (ULTRA AGGRESSIVE MODE)
+2026-06-10 22:02:01 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 62049.21 → 61911.26 (mult=1.2x)
+2026-06-10 22:02:01 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61911.26
+2026-06-10 22:02:01 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61911.26
+2026-06-10 22:02:01 | INFO     | trailing_stop | TRAIL UPDATE ETHUSD [M5]: SHORT stop 1641.34 → 1629.00 (mult=1.2x)
+2026-06-10 22:02:01 | INFO     | apex_bot | ETHUSD: APEX TRAIL UPDATE | stop=1629.00
+2026-06-10 22:02:02 | INFO     | apex_order_manager | ✓ APEX STOP | ETHUSD | 1629.00
+2026-06-10 22:02:16 | INFO     | apex_bot | BTCUSD: SIGNAL REVERSAL - closing short, opening long
+2026-06-10 22:02:16 | INFO     | apex_order_manager | APEX CLOSE | BTCUSD @ 61781.07 | P&L=7.59
+2026-06-10 22:02:16 | INFO     | apex_bot | BTCUSD: position closed | reason=SIGNAL_REVERSAL
+2026-06-10 22:02:16 | INFO     | apex_volatility_sizer | APEX SIZER BTCUSD: Bal=95453 | Fcst=+8.9 | Vol=80% | Risk=85% | Lots=0.0700
+2026-06-10 22:02:16 | INFO     | apex_bot | BTCUSD: APEX ENTRY | lots=0.0700 | candle ATR=129.18 | stop_mult=1.2x | price=61772.06
+2026-06-10 22:02:16 | INFO     | apex_order_manager |  APEX OPEN | BTCUSD 0.0700 @ 61781.03 | ticket=169126143
+2026-06-10 22:02:16 | INFO     | apex_bot | BTCUSD: APEX OPENED BUY | lots=0.0700 | ticket=169126143 | NO TP
+2026-06-10 22:06:36 | INFO     | apex_order_manager | APEX MT5 | Account: 179322 | Balance: 95453.21 ZAR | Leverage: 1:500
+2026-06-10 22:06:36 | INFO     | apex_ewmac_strategy | APEX EWMAC (ULTRA) | tf=M5 | daily_mult=16.97x | stop_mult=1.2x | ATR=8
+2026-06-10 22:06:36 | INFO     | apex_ewmac_strategy | APEX EWMAC (ULTRA) | tf=M5 | daily_mult=16.97x | stop_mult=1.2x | ATR=8
+2026-06-10 22:06:36 | INFO     | apex_volatility_sizer | APEX SIZER (ULTRA) | N=2 | IDM=3.50
+2026-06-10 22:06:36 | INFO     | apex_bot | APEX SYSTEM ACTIVE | IDM=3.50 | N=2
+2026-06-10 22:06:36 | INFO     | apex_bot | Trading: BTCUSD, ETHUSD only
+2026-06-10 22:06:36 | INFO     | apex_bot | Timeframe: M5 (5 minute) ultra aggressive
+2026-06-10 22:06:36 | INFO     | apex_bot | Exit: Trailing stop (1.5× ATR) + Stop and Reverse
+2026-06-10 22:06:36 | INFO     | apex_bot | Smart re-entry: ENABLED (15 min cooldown)
+2026-06-10 22:06:36 | INFO     | apex_bot |  APEX main loop started (ULTRA AGGRESSIVE MODE)
+2026-06-10 22:06:36 | INFO     | apex_bot | BTCUSD: SIGNAL REVERSAL - closing long, opening short
+2026-06-10 22:06:37 | INFO     | apex_order_manager | APEX CLOSE | BTCUSD @ 61773.16 | P&L=-0.55
+2026-06-10 22:06:37 | INFO     | apex_bot | BTCUSD: position closed | reason=SIGNAL_REVERSAL
+2026-06-10 22:06:37 | INFO     | apex_volatility_sizer | APEX SIZER BTCUSD: Bal=95443 | Fcst=-7.1 | Vol=80% | Risk=85% | Lots=0.0700
+2026-06-10 22:06:37 | INFO     | apex_bot | BTCUSD: APEX ENTRY | lots=0.0700 | candle ATR=137.96 | stop_mult=1.2x | price=61780.66
+2026-06-10 22:06:37 | INFO     | apex_order_manager |  APEX OPEN | BTCUSD 0.0700 @ 61772.16 | ticket=169126234
+2026-06-10 22:06:37 | INFO     | apex_bot | BTCUSD: APEX OPENED SELL | lots=0.0700 | ticket=169126234 | NO TP
+2026-06-10 22:10:06 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61946.22 → 61856.94 (mult=1.2x)
+2026-06-10 22:10:06 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61856.94
+2026-06-10 22:10:07 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61856.94
+2026-06-10 22:10:07 | INFO     | trailing_stop | TRAIL UPDATE ETHUSD [M5]: SHORT stop 1629.00 → 1628.16 (mult=1.2x)
+2026-06-10 22:10:07 | INFO     | apex_bot | ETHUSD: APEX TRAIL UPDATE | stop=1628.16
+2026-06-10 22:10:08 | INFO     | apex_order_manager | ✓ APEX STOP | ETHUSD | 1628.16
+2026-06-10 22:22:36 | WARNING  | apex_symbol_state | ETHUSD: STOP RECORDED | price=1628.16 | consecutive=1
+2026-06-10 22:23:06 | WARNING  | apex_symbol_state | BTCUSD: STOP RECORDED | price=61856.94 | consecutive=1
+2026-06-10 22:25:06 | INFO     | apex_volatility_sizer | APEX SIZER ETHUSD: Bal=95493 | Fcst=+7.2 | Vol=101% | Risk=58% | Lots=2.0000
+2026-06-10 22:25:06 | INFO     | apex_bot | ETHUSD: Reduced position size (0.5x) due to recent stops
+2026-06-10 22:25:06 | INFO     | apex_bot | ETHUSD: APEX ENTRY | lots=2.0000 | candle ATR=6.11 | stop_mult=1.2x | price=1632.41
+2026-06-10 22:25:07 | INFO     | apex_order_manager |  APEX OPEN | ETHUSD 2.0000 @ 1632.99 | ticket=169126654
+2026-06-10 22:25:07 | INFO     | apex_bot | ETHUSD: APEX OPENED BUY | lots=2.0000 | ticket=169126654 | NO TP
+2026-06-10 22:30:06 | INFO     | apex_volatility_sizer | APEX SIZER BTCUSD: Bal=95493 | Fcst=+1.9 | Vol=80% | Risk=20% | Lots=0.0100
+2026-06-10 22:30:06 | INFO     | apex_bot | BTCUSD: Reduced position size (0.5x) due to recent stops
+2026-06-10 22:30:06 | INFO     | apex_bot | BTCUSD: APEX ENTRY | lots=0.0100 | candle ATR=122.49 | stop_mult=1.2x | price=61833.96
+2026-06-10 22:30:07 | INFO     | apex_order_manager |  APEX OPEN | BTCUSD 0.0100 @ 61843.47 | ticket=169126703
+2026-06-10 22:30:07 | INFO     | apex_bot | BTCUSD: APEX OPENED BUY | lots=0.0100 | ticket=169126703 | NO TP
+2026-06-10 22:35:06 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: LONG stop 61686.97 → 61696.80 (mult=1.2x)
+2026-06-10 22:35:06 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61696.80
+2026-06-10 22:35:07 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61696.80
+2026-06-10 22:40:06 | INFO     | apex_bot | BTCUSD: SIGNAL REVERSAL - closing long, opening short
+2026-06-10 22:40:07 | INFO     | apex_order_manager | APEX CLOSE | BTCUSD @ 61786.74 | P&L=-0.57
+2026-06-10 22:40:07 | INFO     | apex_bot | BTCUSD: position closed | reason=SIGNAL_REVERSAL
+2026-06-10 22:40:07 | INFO     | apex_volatility_sizer | APEX SIZER BTCUSD: Bal=95484 | Fcst=-4.1 | Vol=80% | Risk=59% | Lots=0.0500
+2026-06-10 22:40:07 | INFO     | apex_bot | BTCUSD: Reduced position size (0.7x) due to recent stops
+2026-06-10 22:40:07 | INFO     | apex_bot | BTCUSD: APEX ENTRY | lots=0.0500 | candle ATR=105.99 | stop_mult=1.2x | price=61794.24
+2026-06-10 22:40:07 | INFO     | apex_order_manager |  APEX OPEN | BTCUSD 0.0500 @ 61786.86 | ticket=169126770
+2026-06-10 22:40:07 | INFO     | apex_bot | BTCUSD: APEX OPENED SELL | lots=0.0500 | ticket=169126770 | NO TP
+2026-06-10 22:45:06 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61921.42 → 61883.95 (mult=1.2x)
+2026-06-10 22:45:06 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61883.95
+2026-06-10 22:45:07 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61883.95
+2026-06-10 22:45:07 | INFO     | apex_bot | ETHUSD: SIGNAL REVERSAL - closing long, opening short
+2026-06-10 22:45:07 | INFO     | apex_order_manager | APEX CLOSE | ETHUSD @ 1627.68 | P&L=-10.62
+2026-06-10 22:45:07 | INFO     | apex_bot | ETHUSD: position closed | reason=SIGNAL_REVERSAL
+2026-06-10 22:45:07 | INFO     | apex_volatility_sizer | APEX SIZER ETHUSD: Bal=95308 | Fcst=-2.7 | Vol=80% | Risk=39% | Lots=1.3000
+2026-06-10 22:45:07 | INFO     | apex_bot | ETHUSD: Reduced position size (0.7x) due to recent stops
+2026-06-10 22:45:07 | INFO     | apex_bot | ETHUSD: APEX ENTRY | lots=1.3000 | candle ATR=3.77 | stop_mult=1.2x | price=1628.32
+2026-06-10 22:45:08 | INFO     | apex_order_manager |  APEX OPEN | ETHUSD 1.3000 @ 1627.68 | ticket=169126835
+2026-06-10 22:45:08 | INFO     | apex_bot | ETHUSD: APEX OPENED SELL | lots=1.3000 | ticket=169126835 | NO TP
+2026-06-10 22:55:06 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61883.95 → 61846.80 (mult=1.2x)
+2026-06-10 22:55:06 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61846.80
+2026-06-10 22:55:07 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61846.80
+2026-06-10 22:55:07 | INFO     | trailing_stop | TRAIL UPDATE ETHUSD [M5]: SHORT stop 1632.84 → 1630.84 (mult=1.2x)
+2026-06-10 22:55:07 | INFO     | apex_bot | ETHUSD: APEX TRAIL UPDATE | stop=1630.84
+2026-06-10 22:55:07 | INFO     | apex_order_manager | ✓ APEX STOP | ETHUSD | 1630.84
+2026-06-10 23:05:06 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61846.80 → 61797.99 (mult=1.2x)
+2026-06-10 23:05:06 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61797.99
+2026-06-10 23:05:07 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61797.99
+2026-06-10 23:05:07 | INFO     | trailing_stop | TRAIL UPDATE ETHUSD [M5]: SHORT stop 1630.84 → 1630.48 (mult=1.2x)
+2026-06-10 23:05:07 | INFO     | apex_bot | ETHUSD: APEX TRAIL UPDATE | stop=1630.48
+2026-06-10 23:05:08 | INFO     | apex_order_manager | ✓ APEX STOP | ETHUSD | 1630.48
+2026-06-10 23:10:06 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61797.99 → 61682.75 (mult=1.2x)
+2026-06-10 23:10:06 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61682.75
+2026-06-10 23:10:07 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61682.75
+2026-06-10 23:10:07 | INFO     | trailing_stop | TRAIL UPDATE ETHUSD [M5]: SHORT stop 1630.48 → 1621.94 (mult=1.2x)
+2026-06-10 23:10:07 | INFO     | apex_bot | ETHUSD: APEX TRAIL UPDATE | stop=1621.94
+2026-06-10 23:10:08 | INFO     | apex_order_manager | ✓ APEX STOP | ETHUSD | 1621.94
+2026-06-10 23:15:06 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61682.75 → 61636.41 (mult=1.2x)
+2026-06-10 23:15:06 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61636.41
+2026-06-10 23:15:07 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61636.41
+2026-06-10 23:20:06 | INFO     | apex_volatility_sizer | APEX SIZER BTCUSD: Bal=95548 | Fcst=-37.2 | Vol=80% | Risk=85% | Lots=0.0700
+2026-06-10 23:20:06 | INFO     | apex_bot | BTCUSD: Reduced position size (0.8x) due to recent stops
+2026-06-10 23:20:06 | INFO     | apex_bot | BTCUSD: APEX ENTRY | lots=0.0700 | candle ATR=110.93 | stop_mult=1.2x | price=61551.26
+2026-06-10 23:20:10 | INFO     | apex_volatility_sizer | APEX SIZER ETHUSD: Bal=95548 | Fcst=-26.2 | Vol=80% | Risk=85% | Lots=3.0000
+2026-06-10 23:20:10 | INFO     | apex_bot | ETHUSD: Reduced position size (0.8x) due to recent stops
+2026-06-10 23:20:10 | INFO     | apex_bot | ETHUSD: APEX ENTRY | lots=3.0000 | candle ATR=4.77 | stop_mult=1.2x | price=1620.63
+2026-06-10 23:20:11 | INFO     | apex_order_manager |  APEX OPEN | ETHUSD 3.0000 @ 1619.90 | ticket=169127146
+2026-06-10 23:20:11 | INFO     | apex_bot | ETHUSD: APEX OPENED SELL | lots=3.0000 | ticket=169127146 | NO TP
+2026-06-10 23:29:20 | INFO     | apex_order_manager | APEX MT5 | Account: 179322 | Balance: 95548.18 ZAR | Leverage: 1:500
+2026-06-10 23:29:20 | INFO     | apex_ewmac_strategy | APEX EWMAC (ULTRA) | tf=M5 | daily_mult=16.97x | stop_mult=1.2x | ATR=8
+2026-06-10 23:29:20 | INFO     | apex_ewmac_strategy | APEX EWMAC (ULTRA) | tf=M5 | daily_mult=16.97x | stop_mult=1.2x | ATR=8
+2026-06-10 23:29:20 | INFO     | apex_volatility_sizer | APEX SIZER (ULTRA) | N=2 | IDM=3.50
+2026-06-10 23:29:20 | INFO     | apex_bot | APEX SYSTEM ACTIVE | IDM=3.50 | N=2
+2026-06-10 23:29:20 | INFO     | apex_bot | Trading: BTCUSD, ETHUSD only
+2026-06-10 23:29:20 | INFO     | apex_bot | Timeframe: M5 (5 minute) ultra aggressive
+2026-06-10 23:29:20 | INFO     | apex_bot | Exit: Trailing stop (1.5× ATR) + Stop and Reverse
+2026-06-10 23:29:20 | INFO     | apex_bot | Smart re-entry: ENABLED (15 min cooldown)
+2026-06-10 23:29:20 | INFO     | apex_bot |  APEX main loop started (ULTRA AGGRESSIVE MODE)
+2026-06-10 23:29:20 | INFO     | apex_volatility_sizer | APEX SIZER BTCUSD: Bal=95548 | Fcst=-39.3 | Vol=80% | Risk=85% | Lots=0.0700
+2026-06-10 23:29:20 | INFO     | apex_bot | BTCUSD: APEX ENTRY | lots=0.0700 | candle ATR=113.80 | stop_mult=1.2x | price=61527.04
+2026-06-10 23:29:21 | INFO     | apex_order_manager |  APEX OPEN | BTCUSD 0.0700 @ 61516.90 | ticket=169127175
+2026-06-10 23:29:21 | INFO     | apex_bot | BTCUSD: APEX OPENED SELL | lots=0.0700 | ticket=169127175 | NO TP
+2026-06-10 23:29:21 | INFO     | trailing_stop | TRAIL UPDATE ETHUSD [M5]: SHORT stop 1626.35 → 1624.55 (mult=1.2x)
+2026-06-10 23:29:21 | INFO     | apex_bot | ETHUSD: APEX TRAIL UPDATE | stop=1624.55
+2026-06-10 23:29:21 | INFO     | apex_order_manager | ✓ APEX STOP | ETHUSD | 1624.55
+2026-06-10 23:30:05 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61663.59 → 61655.14 (mult=1.2x)
+2026-06-10 23:30:05 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61655.14
+2026-06-10 23:30:06 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61655.14
+2026-06-10 23:30:06 | INFO     | trailing_stop | TRAIL UPDATE ETHUSD [M5]: SHORT stop 1624.55 → 1623.78 (mult=1.2x)
+2026-06-10 23:30:06 | INFO     | apex_bot | ETHUSD: APEX TRAIL UPDATE | stop=1623.78
+2026-06-10 23:30:06 | INFO     | apex_order_manager | ✓ APEX STOP | ETHUSD | 1623.78
+2026-06-10 23:35:05 | INFO     | apex_volatility_sizer | APEX SIZER BTCUSD: Bal=95384 | Fcst=-14.7 | Vol=80% | Risk=85% | Lots=0.0700
+2026-06-10 23:35:05 | INFO     | apex_bot | BTCUSD: APEX ENTRY | lots=0.0700 | candle ATR=116.00 | stop_mult=1.2x | price=61642.92
+2026-06-10 23:35:06 | INFO     | apex_order_manager |  APEX OPEN | BTCUSD 0.0700 @ 61632.57 | ticket=169127188
+2026-06-10 23:35:06 | INFO     | apex_bot | BTCUSD: APEX OPENED SELL | lots=0.0700 | ticket=169127188 | NO TP
+2026-06-10 23:40:05 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61782.12 → 61696.05 (mult=1.2x)
+2026-06-10 23:40:05 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61696.05
+2026-06-10 23:40:06 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61696.05
+2026-06-10 23:50:05 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61696.05 → 61444.11 (mult=1.2x)
+2026-06-10 23:50:05 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61444.11
+2026-06-10 23:50:06 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61444.11
+2026-06-10 23:50:06 | INFO     | trailing_stop | TRAIL UPDATE ETHUSD [M5]: SHORT stop 1623.78 → 1619.65 (mult=1.2x)
+2026-06-10 23:50:06 | INFO     | apex_bot | ETHUSD: APEX TRAIL UPDATE | stop=1619.65
+2026-06-10 23:50:06 | INFO     | apex_order_manager | ✓ APEX STOP | ETHUSD | 1619.65
+2026-06-10 23:55:05 | INFO     | trailing_stop | TRAIL UPDATE BTCUSD [M5]: SHORT stop 61444.11 → 61363.03 (mult=1.2x)
+2026-06-10 23:55:05 | INFO     | apex_bot | BTCUSD: APEX TRAIL UPDATE | stop=61363.03
+2026-06-10 23:55:06 | INFO     | apex_order_manager | ✓ APEX STOP | BTCUSD | 61363.03
+2026-06-10 23:55:06 | INFO     | trailing_stop | TRAIL UPDATE ETHUSD [M5]: SHORT stop 1619.65 → 1615.45 (mult=1.2x)
+2026-06-10 23:55:06 | INFO     | apex_bot | ETHUSD: APEX TRAIL UPDATE | stop=1615.45
+2026-06-10 23:55:06 | INFO     | apex_order_manager | ✓ APEX STOP | ETHUSD | 1615.45
+2026-06-11 00:02:11 | INFO     | apex_bot | Shutting down APEX TradingBot…
+2026-06-11 00:02:11 | INFO     | apex_order_manager | MT5 closed
+2026-06-11 00:02:11 | INFO     | apex_bot | Shutting down APEX TradingBot…
+2026-06-11 00:02:11 | INFO     | apex_order_manager | MT5 closed
