@@ -40,8 +40,7 @@ class ApexDashboard:
         
         if account_info:
             balance = account_info.balance
-            equity = account_info.equity
-            print(f"  Balance: R{balance:,.2f}  |  Equity: R{equity:,.2f}{Style.RESET_ALL}")
+            print(f"  Balance: R{balance:,.2f}")
 
         print(f"{Fore.WHITE}{'─' * 100}{Style.RESET_ALL}")
 
